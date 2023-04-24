@@ -1,6 +1,6 @@
 # PDUnity
 ## TO DO
-- [ ] Atrast attēlus
+- [x] Atrast attēlus
 - [ ] Tēla vārda un vecuma ievade un izvade
 - [ ] Tēla izvēle ar izkrītošo sarakstu (vismaz 2)
 
