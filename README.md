@@ -1,8 +1,9 @@
 # PDUnity
 ## TO DO
 - [x] Atrast attēlus
-- [ ] Tēla vārda un vecuma ievade un izvade
+- [x] Tēla vārda un vecuma ievade un izvade
 - [ ] Tēla izvēle ar izkrītošo sarakstu (vismaz 2)
+- [x] Skin tone changer
 
 ### Apgērbu kategorijas:
 - [ ] Bikses
