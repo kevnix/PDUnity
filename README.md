@@ -11,6 +11,7 @@
 - [ ] Cepures
 - [ ] Cimdi
 - [ ] Amuleti
+- [x] Hair
 ### HZ    
 - [ ] Toggle poga hide/show
 - [ ] Drag and drop
