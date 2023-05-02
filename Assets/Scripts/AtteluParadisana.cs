@@ -7,7 +7,9 @@ public class AtteluParadisana : MonoBehaviour {
 	public GameObject charImage;
 	public GameObject h1, h2, h3, h4, h5;
 	public GameObject e1, e2, e3;
-	public Sprite[] atteluMasivs, hc1, hc2, hc3, hc4, hc5, ec1, ec2, ec3;
+	public GameObject t1, t2, t3, t4, t5;
+	public GameObject b1, b2, b3;
+	public Sprite[] atteluMasivs, hc1, hc2, hc3, hc4, hc5, ec1, ec2, ec3, tc1, tc2, tc3, tc4, tc5, bc1, bc2, bc3;
 
 	public void dropdownChar(int sk){
 		charImage.GetComponent<Image>().sprite = atteluMasivs [sk];
@@ -39,5 +41,35 @@ public class AtteluParadisana : MonoBehaviour {
 		e1.GetComponent<Image>().sprite = ec1 [sk];
 		e2.GetComponent<Image>().sprite = ec2 [sk];
 		e3.GetComponent<Image>().sprite = ec3 [sk];
+	}
+
+	public void topsShow(bool value){
+		t1.SetActive (value);
+		t2.SetActive (value);
+		t3.SetActive (value);
+		t4.SetActive (value);
+		t5.SetActive (value);
+
+	}
+
+	public void dropdownTopColor(int sk){
+		t1.GetComponent<Image>().sprite = tc1 [sk];
+		t2.GetComponent<Image>().sprite = tc2 [sk];
+		t3.GetComponent<Image>().sprite = tc3 [sk];
+		t4.GetComponent<Image>().sprite = tc4 [sk];
+		t5.GetComponent<Image>().sprite = tc5 [sk];
+	}
+
+	public void bottomsShow(bool value){
+		b1.SetActive (value);
+		b2.SetActive (value);
+		b3.SetActive (value);
+
+	}
+
+	public void dropdownBottomColor(int sk){
+		b1.GetComponent<Image>().sprite = bc1 [sk];
+		b2.GetComponent<Image>().sprite = bc2 [sk];
+		b3.GetComponent<Image>().sprite = bc3 [sk];
 	}
 }

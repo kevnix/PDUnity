@@ -6,13 +6,13 @@
 - [x] Skin tone changer
 
 ### Apgērbu kategorijas:
-- [ ] Bikses
-- [ ] Zābaki
-- [ ] Cepures
-- [ ] Cimdi
-- [ ] Amuleti
-### HZ    
-- [ ] Toggle poga hide/show
+- [x] Bikses
+- [x] Tops
+- [x] Hair
+- [x] Eyes
+### HZ
+- [x] Dropdown    
+- [x] Toggle poga hide/show
 - [ ] Drag and drop
 - [ ] SFX
 - [ ] Scrolltext
