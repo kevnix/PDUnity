@@ -9,6 +9,8 @@ public class AtteluParadisana : MonoBehaviour {
 	public GameObject e1, e2, e3;
 	public GameObject t1, t2, t3, t4, t5;
 	public GameObject b1, b2, b3;
+	public GameObject slider, slider2;
+	public float garums, platums;
 	public Sprite[] atteluMasivs, hc1, hc2, hc3, hc4, hc5, ec1, ec2, ec3, tc1, tc2, tc3, tc4, tc5, bc1, bc2, bc3;
 
 	public void dropdownChar(int sk){
@@ -71,5 +73,47 @@ public class AtteluParadisana : MonoBehaviour {
 		b1.GetComponent<Image>().sprite = bc1 [sk];
 		b2.GetComponent<Image>().sprite = bc2 [sk];
 		b3.GetComponent<Image>().sprite = bc3 [sk];
+	}
+
+	public void mainitGarumu(){
+		garums = slider.GetComponent<Slider> ().value;
+		charImage.transform.localScale = new Vector2 (platums, garums);
+		h1.transform.localScale = new Vector2 (platums, garums);
+		h2.transform.localScale = new Vector2 (platums, garums);
+		h3.transform.localScale = new Vector2 (platums, garums);
+		h4.transform.localScale = new Vector2 (platums, garums);
+		h5.transform.localScale = new Vector2 (platums, garums);
+		t1.transform.localScale = new Vector2 (platums, garums);
+		t2.transform.localScale = new Vector2 (platums, garums);
+		t3.transform.localScale = new Vector2 (platums, garums);
+		t4.transform.localScale = new Vector2 (platums, garums);
+		t5.transform.localScale = new Vector2 (platums, garums);
+		e1.transform.localScale = new Vector2 (platums, garums);
+		e2.transform.localScale = new Vector2 (platums, garums);
+		e3.transform.localScale = new Vector2 (platums, garums);
+		b1.transform.localScale = new Vector2 (platums, garums);
+		b2.transform.localScale = new Vector2 (platums, garums);
+		b3.transform.localScale = new Vector2 (platums, garums);
+	}
+
+	public void mainitPlatumu(){
+		platums = slider2.GetComponent<Slider> ().value;
+		charImage.transform.localScale = new Vector2 (platums, garums);
+		h1.transform.localScale = new Vector2 (platums, garums);
+		h2.transform.localScale = new Vector2 (platums, garums);
+		h3.transform.localScale = new Vector2 (platums, garums);
+		h4.transform.localScale = new Vector2 (platums, garums);
+		h5.transform.localScale = new Vector2 (platums, garums);
+		t1.transform.localScale = new Vector2 (platums, garums);
+		t2.transform.localScale = new Vector2 (platums, garums);
+		t3.transform.localScale = new Vector2 (platums, garums);
+		t4.transform.localScale = new Vector2 (platums, garums);
+		t5.transform.localScale = new Vector2 (platums, garums);
+		e1.transform.localScale = new Vector2 (platums, garums);
+		e2.transform.localScale = new Vector2 (platums, garums);
+		e3.transform.localScale = new Vector2 (platums, garums);
+		b1.transform.localScale = new Vector2 (platums, garums);
+		b2.transform.localScale = new Vector2 (platums, garums);
+		b3.transform.localScale = new Vector2 (platums, garums);
 	}
 }

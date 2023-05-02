@@ -14,6 +14,6 @@
 - [x] Dropdown    
 - [x] Toggle poga hide/show
 - [x] Drag and drop
-- [ ] SFX
-- [ ] Scrolltext
-- [ ] Tēla garuma un platuma sliders
+- [x] SFX
+- [x] Scrolltext
+- [x] Tēla garuma un platuma sliders
