@@ -13,7 +13,7 @@
 ### HZ
 - [x] Dropdown    
 - [x] Toggle poga hide/show
-- [ ] Drag and drop
+- [x] Drag and drop
 - [ ] SFX
 - [ ] Scrolltext
 - [ ] Tēla garuma un platuma sliders

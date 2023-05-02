@@ -17,11 +17,11 @@ public class ObjektaParvietosana : MonoBehaviour, IPointerDownHandler, IDragHand
 
 	public void OnDrag(PointerEventData notikums){
 		Debug.Log ("Objekts tiek parvietots!");
-		//transformacijuLogs.anchoredPosition += notikums.delta / kanva.scaleFactor;
+		transformacijuLogs.anchoredPosition += notikums.delta / kanva.scaleFactor;
 		Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
 		mousePosition.x = Mathf.Clamp (mousePosition.x, 0 + transformacijuLogs.rect.width / 2, Screen.width - transformacijuLogs.rect.width / 2);
 		mousePosition.y = Mathf.Clamp (mousePosition.y, 0 + transformacijuLogs.rect.height / 2, Screen.height - transformacijuLogs.rect.height / 2);
-		transform.position = mousePosition;
+		//transform.position = mousePosition;
 		Debug.Log ("\nx=" + mousePosition.x + " y=" + mousePosition.y);
 			
 	}
